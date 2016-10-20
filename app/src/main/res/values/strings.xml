@@ -6,4 +6,13 @@
     <string name="messagePassword">Enter your password</string>
     <string name="messageUser">Enter your user name</string>
     <string name="btnLogin" translatable="false">Login</string>
+
+    <string name="btnSelectImg">Select image</string>
+    <string name="txvName">Name</string>
+    <string name="txvDesc">Description</string>
+    <string name="txvBrand">Brand</string>
+    <string name="txvDosage">Dosage</string>
+    <string name="txvStock">Stock</string>
+    <string name="txvPrice">Price</string>
+    <string name="btnAddMed">Add</string>
 </resources>
