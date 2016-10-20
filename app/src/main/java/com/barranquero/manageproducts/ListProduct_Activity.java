@@ -17,5 +17,6 @@ public class ListProduct_Activity extends ListActivity {
 
         // CASE 1: Unpersonalised Adapter
         adapter = new ArrayAdapter<Product>(this, android.R.layout.simple_list_item_1, ((ManageProducts_Application)getApplication()).getProducts());
+        getListView().setAdapter(adapter);
     }
 }
