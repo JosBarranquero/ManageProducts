@@ -18,6 +18,14 @@ public class ManageProducts_Application extends Application{
         saveProduct(new Product("Metamizol", "Bueno para malestar general", "Nolotil", "575mg", 13.99, 4, R.drawable.nolotil));
         saveProduct(new Product("Cis-control", "Para molestias urinarias", "Cranberola", "36mg", 25.10, 10, R.drawable.cranberola));
         saveProduct(new Product("Lizipadol", "Pastillas para chupar", "Boehringer", "20mg", 13.01, 51, R.drawable.lizipadol));
+        saveProduct(new Product("Ibuprofeno", "Imprescindible", "Cinfa", "600mg", 7.50, 23, R.drawable.ibuprofeno));
+        saveProduct(new Product("Metamizol", "Bueno para malestar general", "Nolotil", "575mg", 13.99, 4, R.drawable.nolotil));
+        saveProduct(new Product("Cis-control", "Para molestias urinarias", "Cranberola", "36mg", 25.10, 10, R.drawable.cranberola));
+        saveProduct(new Product("Lizipadol", "Pastillas para chupar", "Boehringer", "20mg", 13.01, 51, R.drawable.lizipadol));
+        saveProduct(new Product("Ibuprofeno", "Imprescindible", "Cinfa", "600mg", 7.50, 23, R.drawable.ibuprofeno));
+        saveProduct(new Product("Metamizol", "Bueno para malestar general", "Nolotil", "575mg", 13.99, 4, R.drawable.nolotil));
+        saveProduct(new Product("Cis-control", "Para molestias urinarias", "Cranberola", "36mg", 25.10, 10, R.drawable.cranberola));
+        saveProduct(new Product("Lizipadol", "Pastillas para chupar", "Boehringer", "20mg", 13.01, 51, R.drawable.lizipadol));
     }
 
     private void saveProduct(Product p){

@@ -1,5 +1,7 @@
 package com.barranquero.manageproducts.model;
 
+import java.util.Locale;
+
 /**
  * Model class
  */
@@ -65,12 +67,18 @@ public class Product {
         return mPrice;
     }
 
+    public String getFormattedPrice() {return  String.format(Locale.getDefault(), "$%s", mPrice);}
+
     public void setmPrice(double mPrice) {
         this.mPrice = mPrice;
     }
 
     public int getmStock() {
         return mStock;
+    }
+
+    public String getFormattedStock(){
+        return String.format(Locale.getDefault(), "%d u.", mStock);
     }
 
     public void setmStock(int mStock) {

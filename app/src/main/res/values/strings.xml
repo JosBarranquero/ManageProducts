@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LoginTextInputLayout</string>
+    <string name="app_name">ManageProducts</string>
     <string name="txvUser">User</string>
     <string name="txvPassword">Password</string>
     <string name="cbxRemember">Remember me</string>
