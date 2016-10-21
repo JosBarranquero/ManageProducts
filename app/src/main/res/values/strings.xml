@@ -7,6 +7,7 @@
     <string name="messageUser">Enter your user name</string>
     <string name="btnLogin" translatable="false">Login</string>
 
+    <string name="acSearchProduct">Search product</string>
     <string name="btnSelectImg">Select image</string>
     <string name="txvName">Name</string>
     <string name="txvDesc">Description</string>

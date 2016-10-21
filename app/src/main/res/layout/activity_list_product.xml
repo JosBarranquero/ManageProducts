@@ -16,8 +16,23 @@
         android:layout_below="@+id/acSearchProduct"
         android:id="@android:id/list"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddProduct"
+        android:text="@string/btnAddMed"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
     <AutoCompleteTextView
+        android:layout_toStartOf="@id/btnAddProduct"
+        android:layout_toLeftOf="@id/btnAddProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/acSearchProduct"/>
+        android:id="@+id/acSearchProduct"
+        android:text="@string/acSearchProduct"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

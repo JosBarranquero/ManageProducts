@@ -59,6 +59,13 @@ public class ProductAdapterC extends ArrayAdapter<Product> {
         productHolder.txvProductStock.setText(getItem(position).getFormattedStock());
         productHolder.txvProductPrice.setText(getItem(position).getFormattedPrice());
 
+        // 5. Set different colour for odd positions
+        if (position % 2 != 0) {
+            item.setBackgroundResource(R.color.colorPrimary);
+        } else {
+            item.setBackgroundResource(R.color.colorWhite);
+        }
+
         return item;
     }
 
