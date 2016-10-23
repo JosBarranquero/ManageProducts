@@ -15,6 +15,8 @@ import com.barranquero.manageproducts.model.Product;
 
 /**
  * Adapter which is a bit more efficient than A
+ * @author José Antonio Barranquero Fernández
+ * @version 1.1
  */
 public class ProductAdapterB extends ArrayAdapter<Product> {
     private Context context;

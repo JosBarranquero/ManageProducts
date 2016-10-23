@@ -15,6 +15,8 @@ import com.barranquero.manageproducts.model.Product;
 
 /**
  * Inefficient adapter
+ * @author José Antonio Barranquero Fernández
+ * @version 1.0
  */
 public class ProductAdapterA extends ArrayAdapter<Product> {
     private Context context;

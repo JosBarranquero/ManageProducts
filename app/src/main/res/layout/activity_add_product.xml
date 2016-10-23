@@ -10,34 +10,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.barranquero.manageproducts.AddProduct_Activity">
 
-    <ImageView
+    <ImageButton
         android:layout_width="@dimen/img_width"
         android:layout_height="@dimen/img_height"
         android:src="@drawable/cajamedicamentos"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/imgMedicine" />
-
-    <Button
-        android:text="@string/btnSelectImg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnSelectImg"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@id/imgMedicine"
-        android:layout_toRightOf="@+id/imgMedicine"
-        android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:id="@+id/imgMedicine"
+        android:scaleType="centerCrop" />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/lyName"
-        android:layout_below="@id/imgMedicine">
+        android:layout_toEndOf="@id/imgMedicine"
+        android:layout_toRightOf="@id/imgMedicine">
 
 
         <TextView
@@ -58,7 +47,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/lyName"
+        android:layout_below="@id/imgMedicine"
         android:id="@+id/lyDesc">
 
 
@@ -139,7 +128,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
+            android:inputType="number"
             android:ems="10"
             android:id="@+id/edtStock" />
     </LinearLayout>
@@ -161,7 +150,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
+            android:inputType="numberDecimal"
             android:ems="10"
             android:id="@+id/edtPrice" />
     </LinearLayout>

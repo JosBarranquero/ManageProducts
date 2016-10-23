@@ -35,4 +35,8 @@ public class ManageProducts_Application extends Application{
     public List<Product> getProducts(){
         return this.products;
     }
+
+    public void addProduct(Product p) {
+        saveProduct(p);
+    }
 }
